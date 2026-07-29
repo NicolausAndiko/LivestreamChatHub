@@ -1,0 +1,73 @@
+.titlebar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:var(--titlebar-height);
+    padding:0 var(--space-lg);
+    background:var(--surface);
+    border-bottom:1px solid var(--border);
+    user-select:none;
+    -webkit-user-select:none;
+    -webkit-app-region:drag;
+}
+.titlebar-left{
+    display:flex;
+    align-items:center;
+    gap:var(--space-md);
+    min-width:0;
+}
+.titlebar-right{
+    display:flex;
+    align-items:center;
+    gap:var(--space-sm);
+    -webkit-app-region:no-drag;
+}
+.titlebar-icon{
+    width:28px;
+    height:28px;
+    object-fit:contain;
+    flex-shrink:0;
+}
+.titlebar-title{
+    color:var(--text-primary);
+    font-size:var(--font-lg);
+    font-weight:var(--weight-bold);
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.titlebar-actions{
+    display:flex;
+    align-items:center;
+    gap:var(--space-xs);
+}
+.titlebar-divider{
+    width:1px;
+    height:22px;
+    background:var(--border);
+}
+.titlebar-spacer{
+    flex:1;
+}
+.titlebar-status{
+    display:flex;
+    align-items:center;
+    gap:var(--space-xs);
+    color:var(--text-secondary);
+    font-size:var(--font-sm);
+}
+.titlebar-status-dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:var(--success);
+}
+.titlebar-status.offline .titlebar-status-dot{
+    background:var(--danger);
+}
+.titlebar-status.warning .titlebar-status-dot{
+    background:var(--warning);
+}
+.titlebar-button{
+    -webkit-app-region:no-drag;
+}

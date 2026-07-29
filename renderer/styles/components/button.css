@@ -1,0 +1,100 @@
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:var(--space-sm);
+    min-height:var(--button-height);
+    padding:0 var(--space-md);
+    border:none;
+    border-radius:var(--radius-md);
+    font-size:var(--font-md);
+    font-weight:var(--weight-semibold);
+    font-family:var(--font-family);
+    cursor:pointer;
+    user-select:none;
+    transition:all var(--transition);
+}
+.btn:hover:not(:disabled){
+    transform:translateY(-2px);
+}
+.btn:active:not(:disabled){
+    transform:translateY(0);
+}
+.btn:disabled{
+    opacity:.55;
+    cursor:not-allowed;
+}
+.btn-primary{
+    background:var(--primary);
+    color:#FFFFFF;
+}
+.btn-primary:hover:not(:disabled){
+    background:var(--primary-hover);
+}
+.btn-success{
+    background:var(--success);
+    color:#FFFFFF;
+}
+.btn-success:hover:not(:disabled){
+    filter:brightness(1.08);
+}
+.btn-danger{
+    background:var(--danger);
+    color:#FFFFFF;
+}
+.btn-danger:hover:not(:disabled){
+    filter:brightness(1.08);
+}
+.btn-warning{
+    background:var(--warning);
+    color:#000000;
+}
+.btn-warning:hover:not(:disabled){
+    filter:brightness(1.05);
+}
+.btn-secondary{
+    background:var(--surface-light);
+    color:var(--text-primary);
+}
+.btn-secondary:hover:not(:disabled){
+    background:var(--border);
+}
+.btn-outline{
+    background:transparent;
+    color:var(--text-primary);
+    border:1px solid var(--border);
+}
+.btn-outline:hover:not(:disabled){
+    border-color:var(--primary);
+    color:var(--primary);
+}
+.btn-icon{
+    width:40px;
+    height:40px;
+    padding:0;
+    background:var(--surface-light);
+    color:var(--text-primary);
+}
+.btn-icon:hover:not(:disabled){
+    background:var(--primary);
+    color:#FFFFFF;
+}
+.btn-block{
+    width:100%;
+}
+.btn-sm{
+    min-height:34px;
+    padding:0 var(--space-sm);
+    font-size:var(--font-sm);
+}
+.btn-lg{
+    min-height:50px;
+    padding:0 var(--space-lg);
+    font-size:var(--font-lg);
+}
+.btn:disabled{
+    opacity:.45;
+    cursor:not-allowed;
+    pointer-events:none;
+    filter:grayscale(.15);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+<title>Emote Manager</title>
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com">
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="emote.css">
+</head>
+<body>
+    <div class="window">
+        <header class="titlebar">
+            <div class="titlebar-left">
+                <img
+                    class="titlebar-icon"
+                    src="../../assets/icon.ico"
+                    alt="Livestream Chat Hub">
+                <span class="titlebar-title">
+                    Emote Manager
+                </span>
+            </div>
+        </header>
+        <main class="content">
+            <div class="toolbar">
+                <button
+                    id="add-emote"
+                    class="btn btn-primary">
+                    ＋ Add Emote
+                </button>
+                <span
+                    id="emote-count"
+                    class="badge">
+                    ● 0 Emotes
+                </span>
+            </div>
+            <div class="table-container">
+                <table class="emote-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Keyword
+                            </th>
+                            <th>
+                                GIF
+                            </th>
+                            <th>
+                                Preview
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody
+                        id="emote-list">
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer class="statusbar">
+            <span>
+                Ready
+            </span>
+            <span>
+                Livestream Chat Hub v3.0 Alpha
+            </span>
+        </footer>
+    </div>
+<script
+    type="module"
+    src="emote.js">
+</script>
+</body>
+</html>

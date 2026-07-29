@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+<title>Platform Manager</title>
+
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+<link
+    rel="stylesheet"
+    href="platform.css">
+
+</head>
+<body>
+
+<div class="window">
+
+    <header class="titlebar">
+
+        <div class="titlebar-left">
+
+            <img
+                class="titlebar-icon"
+                src="../../assets/icon.ico"
+                alt="Livestream Chat Hub">
+
+            <span class="titlebar-title">
+
+                Add Platform
+
+            </span>
+
+        </div>
+
+    </header>
+
+    <main class="content">
+
+        <div
+            id="platform-grid"
+            class="platform-grid">
+
+            <div
+                id="youtube-card"
+                class="platform-card">
+
+                <img
+                    class="platform-icon"
+                    src="../../assets/youtube.svg"
+                    alt="YouTube">
+
+                <h2>
+
+                    YouTube
+
+                </h2>
+
+                <p>
+
+                    Add YouTube livestream.
+
+                </p>
+
+            </div>
+
+            <div
+                id="twitch-card"
+                class="platform-card">
+
+                <img
+                    class="platform-icon"
+                    src="../../assets/twitch.svg"
+                    alt="Twitch">
+
+                <h2>
+
+                    Twitch
+
+                </h2>
+
+                <p>
+
+                    Add Twitch livestream.
+
+                </p>
+
+            </div>
+
+            <div
+                class="platform-card disabled">
+
+                <img
+                    class="platform-icon"
+                    src="../../assets/tiktok.svg"
+                    alt="TikTok">
+
+                <h2>
+
+                    TikTok
+
+                </h2>
+
+                <p>
+
+                    🚧 Under Construction
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="statusbar">
+
+        <span>
+
+            Ready
+
+        </span>
+
+        <span>
+
+            Livestream Chat Hub v3.0 Alpha
+
+        </span>
+
+    </footer>
+
+</div>
+
+<script
+    type="module"
+    src="platform.js">
+</script>
+
+</body>
+</html>

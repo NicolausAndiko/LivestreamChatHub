@@ -1,0 +1,82 @@
+html{
+    font-size:16px;
+}
+body{
+    font-family:var(--font-family);
+    font-size:var(--font-md);
+    font-weight:var(--weight-normal);
+    line-height:1.5;
+    color:var(--text-primary);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:var(--text-primary);
+    font-weight:var(--weight-bold);
+    line-height:1.2;
+}
+h1{
+    font-size:var(--font-3xl);
+}
+h2{
+    font-size:var(--font-xl);
+}
+h3{
+    font-size:var(--font-lg);
+}
+h4{
+    font-size:var(--font-md);
+}
+h5{
+    font-size:var(--font-sm);
+}
+h6{
+    font-size:var(--font-xs);
+}
+p{
+    color:var(--text-secondary);
+    font-size:var(--font-md);
+    line-height:1.7;
+}
+small{
+    font-size:var(--font-xs);
+    color:var(--text-muted);
+}
+strong{
+    font-weight:var(--weight-bold);
+}
+b{
+    font-weight:var(--weight-bold);
+}
+em{
+    font-style:italic;
+}
+i{
+    font-style:italic;
+}
+label{
+    display:block;
+    font-size:var(--font-sm);
+    font-weight:var(--weight-semibold);
+    color:var(--text-secondary);
+}
+span{
+    color:inherit;
+}
+code{
+    font-family:"Consolas","Courier New",monospace;
+    font-size:.95em;
+}
+pre{
+    font-family:"Consolas","Courier New",monospace;
+    font-size:.95em;
+    white-space:pre-wrap;
+    word-break:break-word;
+}
+::selection{
+    background:var(--primary);
+    color:#FFFFFF;
+}
