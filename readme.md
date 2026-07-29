@@ -9,6 +9,8 @@
   Combine live chats from multiple streaming platforms into a single overlay.
 </p>
 
+![Livestream Chat Hub](docs/main.png)
+
 ---
 
 ## Features
@@ -93,29 +95,6 @@ Customize your own overlay using CSS.
 
 ---
 
-## Installation
-
-### Requirements
-
-- Windows 10 / Windows 11
-- OBS Studio (optional)
-
----
-
-### Run
-
-Download the latest portable release.
-
-Run
-
-```
-Livestream Chat Hub.exe
-```
-
-No installation required.
-
----
-
 ## Supported Platforms
 
 | Platform | Status |
@@ -131,8 +110,12 @@ No installation required.
 ## Project Structure
 
 ```
-src/
 
+assets/
+
+ipc/
+
+src/
 ├── connector/
 │   ├── youtube/
 │   ├── twitch/
@@ -146,9 +129,19 @@ src/
 │
 └── ui/
 
-render/
+renderer/
+├── emote/
+│
+├── overlay/
+│
+├── platform/
+│
+└── styles/
 
-assets/
+ui/
+├── Dialog/
+│
+└── Window/
 
 ```
 
@@ -186,18 +179,11 @@ assets/
 
 ---
 
-## License
-
-MIT License
-
----
-
 ## Author
 
 Developed by **ItsPacoyHere**
 
-GitHub:
-https://github.com/nicolausandiko
+GitHub: https://github.com/nicolausandiko
 
 ---
 
