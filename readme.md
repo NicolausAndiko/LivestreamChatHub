@@ -1,7 +1,7 @@
 # Livestream Chat Hub
 
 <p align="center">
-  <img src="assets/icon.ico" width="128">
+  <img src="assets/icon.png" width="128">
 </p>
 
 <p align="center">
@@ -77,19 +77,19 @@ Customize your own overlay using CSS.
 
 ### Main Window
 
-> Add screenshot here
+![Main Window](docs/main.png)
 
-```
-docs/main-window.png
-```
+### Platform Manager
+
+![Platform Manager](docs/platform.png)
+
+### Emote Manager
+
+![Emote Manager](docs/emote.png)
 
 ### OBS Overlay
 
-> Add screenshot here
-
-```
-docs/overlay.png
-```
+![Overlay Preview](docs/overlay.png)
 
 ---
 
@@ -201,4 +201,4 @@ https://github.com/nicolausandiko
 
 ---
 
-***This project is fully AI-generated. All code was produced with AI assistance, and I do not claim authorship of the AI-generated portions.***
+***This project was generated almost entirely using AI. The project architecture, integration, testing, and final decisions were made by the project maintainer.***
