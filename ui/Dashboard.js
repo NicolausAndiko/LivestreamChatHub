@@ -384,8 +384,13 @@ class Dashboard{
       await navigator.clipboard.writeText(
         input.value
       );
-      button.textContent=
-        "✔";
+      button.innerHTML=
+        `
+        <span class="material-symbols-outlined">
+            done_all
+        </span>
+        Copied!
+        `;
       button.disabled=
         true;
       setTimeout(
