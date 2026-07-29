@@ -1,7 +1,7 @@
 # Livestream Chat Hub
 
 <p align="center">
-  <img src="assets/icon.png" width="128">
+  <img src="assets/icon.ico" width="128">
 </p>
 
 <p align="center">
